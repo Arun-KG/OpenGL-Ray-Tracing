@@ -42,7 +42,7 @@
     <ClCompile Include="Core\vendor\imgui\backends\imgui_impl_opengl3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Core\InitImgui.cpp">
+    <ClCompile Include="src\Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -72,6 +72,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Core\vendor\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\GUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
