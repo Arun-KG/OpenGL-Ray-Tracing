@@ -12,6 +12,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Core\Application.cpp" />
+    <ClCompile Include="Core\DockSpace.cpp" />
     <ClCompile Include="Core\vendor\glad\glad.c" />
     <ClCompile Include="Core\vendor\imgui\backends\imgui_impl_glfw.cpp" />
     <ClCompile Include="Core\vendor\imgui\backends\imgui_impl_opengl3.cpp" />
@@ -24,6 +25,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\GUI.h" />
+    <ClInclude Include="Core\GuiAbstraction.h" />
     <ClInclude Include="Core\vendor\imgui\backends\imgui_impl_glfw.h" />
     <ClInclude Include="Core\vendor\imgui\backends\imgui_impl_opengl3.h" />
     <ClInclude Include="Core\vendor\imgui\backends\imgui_impl_opengl3_loader.h" />
